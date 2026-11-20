@@ -215,30 +215,6 @@ Do not expose this unauthenticated localhost prototype directly to the internet.
 The Napknstack black-and-orange palette carries across the World Explorer,
 Earth editing lab, context and results viewers, and explainer graphics.
 
-## Middle-earth recorded tile tests
-
-The fan-map source uses pixel-space tiles. This diagram follows the same Shire
-landmark through directory zooms 2, 4, and 6, showing how the target and its
-neighboring tiles change as you zoom.
-
-![The Shire's target tile and surrounding context at zoom levels 2, 4, and 6](docs/images/context-selection.svg)
-
-| Recorded GPU example | Tile (z/x/y) | What to inspect |
-| --- | --- | --- |
-| Shire overview and garden variant | `4/43/19` | Two prompts for the same tile, one adding rural dwellings and one asking for more gardens and fewer dwellings. |
-| Shire adjacent tile | `4/44/19` | The tile immediately east of the Shire example, useful for spotting edge drift across the seam. |
-| Shire deeper zoom | `5/86/39` | A child of `4/43/19` where the model rendered an oblique road scene despite the top-down prompt. |
-| Minas Tirith | `4/73/41` | A speculative stone-city draft with curved streets and courtyards. |
-
-The recorded World Explorer test extended the Shire coverage to a 3×3 patch
-at zoom 4, covering x42–44 and y18–20. In **Your maps**, select **Middle-earth**
-and search for **The Shire** or **Minas Tirith**. Use **Swipe original ↔ AI blended**
-where local drafts are available. [Expanded World Explorer test](docs/TEXT_TO_WORLD.md#expanded-middle-earth-test)
-
-The exact Shire pair is bundled above. The remaining Shire and Minas Tirith
-cases are documented in the evaluation report and load in the local viewer
-when their runtime recordings are present. [Generation evaluation](docs/GENERATION_EVALUATION.md)
-
 ## Recorded Earth examples and tests
 
 [Open the example gallery](docs/GALLERY.md) for **11 scenarios and 22 actual
