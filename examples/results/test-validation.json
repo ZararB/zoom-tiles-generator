@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "checks": [
+    {
+      "name": "python_tests",
+      "status": "passed",
+      "tests_run": 34,
+      "skipped_optional_modules": 0
+    },
+    {
+      "name": "name_invariance",
+      "status": "passed"
+    },
+    {
+      "name": "detail_cache_viewport",
+      "status": "passed"
+    },
+    {
+      "name": "fresh_cpu_only",
+      "status": "passed",
+      "tests_run": 29,
+      "skipped_optional_modules": 2
+    }
+  ]
+}

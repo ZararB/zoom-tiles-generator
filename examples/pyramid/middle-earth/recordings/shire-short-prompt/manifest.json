@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "target": [
+    4,
+    43,
+    19
+  ],
+  "steps": 20,
+  "seed": 42,
+  "elapsed_seconds": 59.594,
+  "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+  "prompt": "Add dispersed hobbit dwellings, winding lanes, gardens and fields. Top-down Shire parchment map. Research-inspired rural settlement. Preserve river and road connections. No modern buildings. Use surrounding context.",
+  "source_sha256": "9ba023b7b7068e5d907e13ab88c7ffa2938de6582daa96cf8d38ac4965d9a874",
+  "output_sha256": "f3ec131f55530e93276eebf52e28d41d7ec7927834de9e805f3b423c000a5dcb"
+}

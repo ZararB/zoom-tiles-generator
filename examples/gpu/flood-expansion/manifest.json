@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "actual_worker_request",
+  "case_id": "flood-expansion",
+  "status": "rejected",
+  "created_at_utc": "2026-10-29T05:47:50.405756+00:00",
+  "http_status": 422,
+  "detail": "Image did not pass the model safety checker",
+  "steps": 4,
+  "seed": 42,
+  "source_sha256": "75b0973c7f58c3b326afc0d40d72a80cb709193593390b2661e89ea8915d79f4",
+  "world_sha256": "a3fa82957de6695e201aa3ae994746786c422e50936090664cbcad477e163c66",
+  "draft_only": true
+}

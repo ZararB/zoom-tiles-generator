@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "kind": "actual_browser_zoom_pan",
+  "records": [
+    {
+      "id": "great-lakes-merge",
+      "world_sha256": "89a14bb07aa2dfcd2f61b5db8ca6df890cfd3b2674cc218c91a941c1c9866d7f",
+      "world_hash_unchanged": true,
+      "camera_before": "z/x/y: 5/8/11",
+      "camera_after": "z/x/y: 7/34/45",
+      "screenshot": "docs/images/great-lakes-merge-zoom-pan.jpg"
+    },
+    {
+      "id": "reservoir-canal",
+      "world_sha256": "332e7f62789c6984d5a1ba1a2a8714a62908f99c864f442a5a047bfa8efb7ef3",
+      "world_hash_unchanged": true,
+      "camera_before": "z/x/y: 10/500/386",
+      "camera_after": "z/x/y: 12/2000/1547",
+      "screenshot": "docs/images/reservoir-canal-zoom-pan.jpg"
+    },
+    {
+      "id": "three-islands",
+      "world_sha256": "f55346e714d85f69824dd8a532c359fbf6855300e24ef4e5edc7ede4378acee7",
+      "world_hash_unchanged": true,
+      "camera_before": "z/x/y: 10/581/583",
+      "camera_after": "z/x/y: 12/2325/2335",
+      "screenshot": "docs/images/three-islands-zoom-pan.jpg"
+    }
+  ],
+  "great_lakes_fixed_center_zoom": {
+    "id": "great-lakes-merge",
+    "camera_center_lat_lng": [
+      43.959156,
+      -79.534204
+    ],
+    "after_world_sha256": "89a14bb07aa2dfcd2f61b5db8ca6df890cfd3b2674cc218c91a941c1c9866d7f",
+    "world_hash_unchanged_across_after_captures": true,
+    "captures": [
+      {
+        "phase": "after",
+        "tile": [
+          7,
+          35,
+          46
+        ],
+        "screenshot": "docs/images/great-lakes-after-z7.jpg"
+      },
+      {
+        "phase": "after",
+        "tile": [
+          9,
+          142,
+          186
+        ],
+        "screenshot": "docs/images/great-lakes-after-z9.jpg"
+      },
+      {
+        "phase": "before",
+        "tile": [
+          11,
+          571,
+          745
+        ],
+        "screenshot": "docs/images/great-lakes-before-z11.jpg"
+      },
+      {
+        "phase": "after",
+        "tile": [
+          11,
+          571,
+          745
+        ],
+        "screenshot": "docs/images/great-lakes-after-z11.jpg"
+      },
+      {
+        "phase": "after",
+        "tile": [
+          13,
+          2286,
+          2980
+        ],
+        "screenshot": "docs/images/great-lakes-after-z13.jpg"
+      }
+    ],
+    "before_world_sha256": "941c55781a01bb0f2e9b7d3fc5edc163dda9fa30c0300ea96d72326ccc58983b"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "status": "passed",
+  "kind": "actual_browser_recording_and_video_probe",
+  "variant": "stacked",
+  "videos": [
+    {
+      "file": "01-aligned-zoom-levels.mp4",
+      "bytes": 1281260,
+      "sha256": "fe405a89e65148d129bef280be791c5f4ed481e1b0c27ae81ef86eb726dd991d",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000"
+      }
+    },
+    {
+      "file": "02-generate-the-missing-tile.mp4",
+      "bytes": 818387,
+      "sha256": "c3db292b88e137a8a6a1e9a0ae1be586cc9709a66c5cc0a0494ee0e52bf3bab5",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000"
+      }
+    },
+    {
+      "file": "03-one-world-across-scales.mp4",
+      "bytes": 804690,
+      "sha256": "efcbae74336169a49c36db9d74e79c03b9625d5ae50db1d912233bf03976acbf",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000"
+      }
+    },
+    {
+      "file": "make-every-level-stacked.mp4",
+      "bytes": 5176854,
+      "sha256": "fd0fc6f430dfa4fef6002f9d8a36ae28ab785956b58a35a0a244a831538d680d",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "nb_frames": "1080"
+        }
+      ],
+      "format": {
+        "duration": "36.000000"
+      }
+    }
+  ],
+  "layout": {
+    "text_column": "left",
+    "level_count": 4,
+    "all_layer_center_x": 1310,
+    "all_layer_scale": 490,
+    "all_layer_inclination": 0.165,
+    "source_crops": "region, settlement, street, parcel"
+  },
+  "checks": [
+    "Shared artwork, original script and variation pass node syntax check",
+    "Both variations render without browser console errors",
+    "Full recording saved; playback controls restored",
+    "Viewed complete aligned composition and context scene",
+    "Both animation variants were re-recorded with the Napknstack palette"
+  ],
+  "original_artwork": true,
+  "live_model_recording": false,
+  "connectors": {
+    "normal_width_px": 3.4,
+    "highlight_width_px": 4.8,
+    "round_dots": true,
+    "dark_underlay": true,
+    "endpoint_markers": true
+  }
+}

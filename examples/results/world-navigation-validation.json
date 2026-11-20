@@ -1,0 +1,616 @@
+{
+  "schema_version": 1,
+  "kind": "actual_local_text_and_cuda_demo",
+  "worlds": [
+    {
+      "id": "middle-earth",
+      "title": "Middle-earth",
+      "kind": "middle-earth",
+      "revision": "middle-earth-native-v1",
+      "planner": null,
+      "planner_metadata": {},
+      "node_count": 0,
+      "research_status": "existing_application_preset",
+      "artifacts": [
+        {
+          "tile": [
+            4,
+            41,
+            19
+          ],
+          "artifact_sha256": "f4b378d55f0cb27617bdd653d50f47dcc5d7a4163113b068b3213a9f743082cf",
+          "source_origin": "original",
+          "elapsed_seconds": 30.64,
+          "imported": null,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            42,
+            18
+          ],
+          "artifact_sha256": "b987b5b5011366e8c2f999d9212fe8e4ce72f876f220173184457bca1e8c07e8",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 34.391,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            42,
+            19
+          ],
+          "artifact_sha256": "ad256a1886a3bc719f2c72f083f4c3ca9fb7b7ce0106ffedb1019dd77f9e3d9a",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 29.516,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            42,
+            20
+          ],
+          "artifact_sha256": "57f17d5269d93a5529cd6590982e361515a05d2658bf97a6aed741a1a5c9a164",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 33.781,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            43,
+            18
+          ],
+          "artifact_sha256": "7739be2b5db2de0e5940518f0a6fdc37ff7950d7394a2697f79b28cd3fa6952d",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 29.14,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            43,
+            19
+          ],
+          "artifact_sha256": "f3ec131f55530e93276eebf52e28d41d7ec7927834de9e805f3b423c000a5dcb",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 59.594,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            43,
+            20
+          ],
+          "artifact_sha256": "561baa35fb24dbc8febcdc9e7c640bb445fa3fd1b64e99b1c2ffbb31dbb2f7bf",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 30.454,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            44,
+            18
+          ],
+          "artifact_sha256": "6032926f4ff2ea3b027cbf5243e0cb9e33b8c7ea79b5fd4be549d343890e49f7",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 28.953,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            44,
+            19
+          ],
+          "artifact_sha256": "e436a05992005e59d108b6c9a5b84ba47185b42513a5eab993daabe985a0c0bd",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 41.797,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            44,
+            20
+          ],
+          "artifact_sha256": "100facb4f1a04188d423830ac3c03aa5b613c7c5b871f2241e9afb33887eb0b5",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 29.547,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            4,
+            73,
+            41
+          ],
+          "artifact_sha256": "6f8d11f279c8d8dccbb91cfa445d250c23622f6d274145491ece9bbf4445d8d0",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 55.297,
+          "imported": true,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            5,
+            86,
+            39
+          ],
+          "artifact_sha256": "4d114b4cd64a59153559082a5bed13cfa7713ea3fd2a99e8ac80f610218a43dc",
+          "source_origin": "recorded_native_crop",
+          "elapsed_seconds": 34.36,
+          "imported": true,
+          "draft_only": true
+        }
+      ],
+      "all_artifact_hashes_match": true,
+      "source_border_pixels_preserved": true,
+      "jobs": [
+        {
+          "id": "70541505ecf94d6936b19f5e91910988fb0011a4c7d6afdfb280562cd90e0a63",
+          "tile": [
+            4,
+            41,
+            19
+          ],
+          "status": "completed",
+          "elapsed_seconds": 30.64,
+          "error": null
+        },
+        {
+          "id": "3996d60d3a1dc9ec957415dc4e13d8aed972c0baa9eda188a1f0f38dca879f1d",
+          "tile": [
+            4,
+            41,
+            20
+          ],
+          "status": "cancelled",
+          "elapsed_seconds": null,
+          "error": null
+        },
+        {
+          "id": "bc2bc321adaf71cc37f57377bc713f180dceae9c3118c32631635d29f9a193f5",
+          "tile": [
+            4,
+            41,
+            18
+          ],
+          "status": "cancelled",
+          "elapsed_seconds": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "world-ea2b27f0a695",
+      "title": "Science Map Outline",
+      "kind": "knowledge",
+      "revision": "fb7f1e6c46e63ffffbe89d61aca2e046927b3399db5c6cdff080d293eaa7637b",
+      "planner": "local_ai_outline",
+      "planner_metadata": {
+        "model": "Qwen3-1.7B-Q8_0",
+        "model_sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+        "runtime": "llama.cpp CPU",
+        "policy": "topic-outline-v1",
+        "seed": 42,
+        "elapsed_seconds": 41.406,
+        "verified_facts": false,
+        "live_research": false
+      },
+      "node_count": 127,
+      "research_status": "model_outline_unverified_not_live_research",
+      "artifacts": [
+        {
+          "tile": [
+            3,
+            3,
+            1
+          ],
+          "artifact_sha256": "f3113056ca62581bb3c689ea574d457ee2673dd051141e840b3f193f1991d953",
+          "source_origin": "original",
+          "elapsed_seconds": 30.219,
+          "imported": null,
+          "draft_only": true
+        }
+      ],
+      "all_artifact_hashes_match": true,
+      "source_border_pixels_preserved": true,
+      "jobs": [
+        {
+          "id": "a85373d0f75d25997efeb121e207232d558c81ed820d2324602414d6ae6f0e70",
+          "tile": [
+            0,
+            0,
+            0
+          ],
+          "status": "failed",
+          "elapsed_seconds": null,
+          "error": "422 Client Error: Unprocessable Entity for url: http://127.0.0.1:8888/edit"
+        },
+        {
+          "id": "cfc1d7573d0a188ca58f53821d7e1bd8b0fe0c727f14ff0cb184755670cb9755",
+          "tile": [
+            3,
+            3,
+            1
+          ],
+          "status": "completed",
+          "elapsed_seconds": 30.219,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "world-baff72ca36a9",
+      "title": "History Map: Societies, Trade, Culture, Technology, and Global Connections",
+      "kind": "knowledge",
+      "revision": "0d86a47b77e39c455a09f5e3074eb69eebcebba867fd06833d9f3f12841e010d",
+      "planner": "local_ai_outline",
+      "planner_metadata": {
+        "model": "Qwen3-1.7B-Q8_0",
+        "model_sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+        "runtime": "llama.cpp CPU",
+        "policy": "topic-outline-v1",
+        "seed": 42,
+        "elapsed_seconds": 50.188,
+        "verified_facts": false,
+        "live_research": false
+      },
+      "node_count": 106,
+      "research_status": "model_outline_unverified_not_live_research",
+      "artifacts": [
+        {
+          "tile": [
+            0,
+            0,
+            0
+          ],
+          "artifact_sha256": "4ada21173994c54e13d615cdca50cde30aee0d6233d20df8f5ea3b0cfa10d55f",
+          "source_origin": "original",
+          "elapsed_seconds": 31.235,
+          "imported": null,
+          "draft_only": true
+        },
+        {
+          "tile": [
+            3,
+            6,
+            3
+          ],
+          "artifact_sha256": "6e633895692b5431aaf62424485d4d27dbc3093b23d01429d8f1844e54fab57b",
+          "source_origin": "inherited_parent",
+          "elapsed_seconds": 30.297,
+          "imported": null,
+          "draft_only": true
+        }
+      ],
+      "all_artifact_hashes_match": true,
+      "source_border_pixels_preserved": true,
+      "jobs": [
+        {
+          "id": "aeda6bb35568c462cacaa70c0d5b913ed1e99ccbcfcad5ca5002fbeea08e7254",
+          "tile": [
+            0,
+            0,
+            0
+          ],
+          "status": "completed",
+          "elapsed_seconds": 31.235,
+          "error": null
+        },
+        {
+          "id": "cafad1d0a1bc7204fc8a4f2693a217ba1ab3294e76efec1b04ec0884322689ee",
+          "tile": [
+            3,
+            6,
+            3
+          ],
+          "status": "completed",
+          "elapsed_seconds": 30.297,
+          "error": null
+        },
+        {
+          "id": "47b125fa044705c25b08944a0355af59311a54fd7df3f618ec834c7ec9bf817b",
+          "tile": [
+            3,
+            6,
+            2
+          ],
+          "status": "cancelled",
+          "elapsed_seconds": null,
+          "error": null
+        },
+        {
+          "id": "12311bc1d02e7565bbc502b1eb29efc3babf29622c8850162eab386f79ab7ffc",
+          "tile": [
+            3,
+            5,
+            3
+          ],
+          "status": "cancelled",
+          "elapsed_seconds": null,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "world-b209a211a84b",
+      "title": "Map of science",
+      "kind": "knowledge",
+      "revision": "97269dce064f4f41c18e1e160b265fc0f9a48ec8fb1192ee814d89aa94f1efe3",
+      "planner": "curated_demo_outline",
+      "planner_metadata": {},
+      "node_count": 176,
+      "research_status": "curated_outline_not_live_research",
+      "artifacts": [
+        {
+          "tile": [
+            0,
+            0,
+            0
+          ],
+          "artifact_sha256": "1d679f98e829be64a10f8fc899d50f53ddf2de4c9af3bfc2feb42b16a01c6c03",
+          "source_origin": "original",
+          "elapsed_seconds": 29.5,
+          "imported": null,
+          "draft_only": true
+        }
+      ],
+      "all_artifact_hashes_match": true,
+      "source_border_pixels_preserved": true,
+      "jobs": [
+        {
+          "id": "4b0f416480f05d2cedec0980c5378adcd0c8c50acd85d9cfc281a4417411ca20",
+          "tile": [
+            0,
+            0,
+            0
+          ],
+          "status": "completed",
+          "elapsed_seconds": 29.5,
+          "error": null
+        }
+      ]
+    },
+    {
+      "id": "world-582d2f02711a",
+      "title": "Map of history",
+      "kind": "knowledge",
+      "revision": "0439692089f9ea0b0dd126ff146d1798a43ce848d781ef8b4d10055d356c69bf",
+      "planner": "curated_demo_outline",
+      "planner_metadata": {},
+      "node_count": 151,
+      "research_status": "curated_outline_not_live_research",
+      "artifacts": [
+        {
+          "tile": [
+            0,
+            0,
+            0
+          ],
+          "artifact_sha256": "2b5e0cf75b0e4c7045ddd4f920e50d4dc6f47ddc12c714c4e8efbfe9d824a5b6",
+          "source_origin": "original",
+          "elapsed_seconds": 31.188,
+          "imported": null,
+          "draft_only": true
+        }
+      ],
+      "all_artifact_hashes_match": true,
+      "source_border_pixels_preserved": true,
+      "jobs": [
+        {
+          "id": "c3e96fd5401476051ee7b077e8001a0ee2fd364debce9c58c05b480514a2d90a",
+          "tile": [
+            0,
+            0,
+            0
+          ],
+          "status": "completed",
+          "elapsed_seconds": 31.188,
+          "error": null
+        }
+      ]
+    }
+  ],
+  "new_middle_earth_requests": [
+    {
+      "case": "me-nav-42-18",
+      "target": [
+        4,
+        42,
+        18
+      ],
+      "elapsed_seconds": 34.391,
+      "output_sha256": "b987b5b5011366e8c2f999d9212fe8e4ce72f876f220173184457bca1e8c07e8",
+      "steps": 20,
+      "seed": 42
+    },
+    {
+      "case": "me-nav-42-19",
+      "target": [
+        4,
+        42,
+        19
+      ],
+      "elapsed_seconds": 29.516,
+      "output_sha256": "ad256a1886a3bc719f2c72f083f4c3ca9fb7b7ce0106ffedb1019dd77f9e3d9a",
+      "steps": 20,
+      "seed": 42
+    },
+    {
+      "case": "me-nav-42-20",
+      "target": [
+        4,
+        42,
+        20
+      ],
+      "elapsed_seconds": 33.781,
+      "output_sha256": "57f17d5269d93a5529cd6590982e361515a05d2658bf97a6aed741a1a5c9a164",
+      "steps": 20,
+      "seed": 42
+    },
+    {
+      "case": "me-nav-43-18",
+      "target": [
+        4,
+        43,
+        18
+      ],
+      "elapsed_seconds": 29.14,
+      "output_sha256": "7739be2b5db2de0e5940518f0a6fdc37ff7950d7394a2697f79b28cd3fa6952d",
+      "steps": 20,
+      "seed": 42
+    },
+    {
+      "case": "me-nav-43-20",
+      "target": [
+        4,
+        43,
+        20
+      ],
+      "elapsed_seconds": 30.454,
+      "output_sha256": "561baa35fb24dbc8febcdc9e7c640bb445fa3fd1b64e99b1c2ffbb31dbb2f7bf",
+      "steps": 20,
+      "seed": 42
+    },
+    {
+      "case": "me-nav-44-18",
+      "target": [
+        4,
+        44,
+        18
+      ],
+      "elapsed_seconds": 28.953,
+      "output_sha256": "6032926f4ff2ea3b027cbf5243e0cb9e33b8c7ea79b5fd4be549d343890e49f7",
+      "steps": 20,
+      "seed": 42
+    },
+    {
+      "case": "me-nav-44-20",
+      "target": [
+        4,
+        44,
+        20
+      ],
+      "elapsed_seconds": 29.547,
+      "output_sha256": "100facb4f1a04188d423830ac3c03aa5b613c7c5b871f2241e9afb33887eb0b5",
+      "steps": 20,
+      "seed": 42
+    }
+  ],
+  "quality_approved": false,
+  "notes": [
+    "AI outlines are unverified, not live research.",
+    "Source labels and links remain vectors.",
+    "Edge compositing is not semantic geometry correctness.",
+    "A science overview was checker-rejected; source fallback remained visible."
+  ],
+  "browser": {
+    "views": [
+      {
+        "view": "science-ai-overview-original",
+        "center": "[2048,2048]",
+        "completedTiles": "1",
+        "generatedVisible": "0",
+        "layer": "original",
+        "name": "Interactive map; drag to pan, scroll or use controls to zoom",
+        "visibleTiles": "4",
+        "world": "world-ea2b27f0a695",
+        "zoom": "1.13"
+      },
+      {
+        "view": "science-ai-physics-source",
+        "center": "[2048,768]",
+        "completedTiles": "1",
+        "generatedVisible": "0",
+        "layer": "original",
+        "name": "Interactive map; drag to pan, scroll or use controls to zoom",
+        "visibleTiles": "12",
+        "world": "world-ea2b27f0a695",
+        "zoom": "3.00"
+      },
+      {
+        "view": "middle-earth-original-generated-swipe",
+        "center": "[2772,1258]",
+        "completedTiles": "12",
+        "generatedVisible": "10",
+        "layer": "compare",
+        "name": "Interactive map; drag to pan, scroll or use controls to zoom",
+        "visibleTiles": "15",
+        "world": "middle-earth",
+        "zoom": "4.00"
+      },
+      {
+        "view": "middle-earth-generated-patch",
+        "center": "[2772,1258]",
+        "completedTiles": "12",
+        "generatedVisible": "10",
+        "layer": "raw",
+        "name": "Interactive map; drag to pan, scroll or use controls to zoom",
+        "visibleTiles": "15",
+        "world": "middle-earth",
+        "zoom": "4.00"
+      },
+      {
+        "view": "middle-earth-full-original",
+        "center": "[3840,2193]",
+        "completedTiles": "12",
+        "generatedVisible": "0",
+        "layer": "original",
+        "name": "Interactive map; drag to pan, scroll or use controls to zoom",
+        "visibleTiles": "12",
+        "world": "middle-earth",
+        "zoom": "-1.26"
+      },
+      {
+        "view": "middle-earth-final-swipe",
+        "center": "[2772,1258]",
+        "completedTiles": "12",
+        "generatedVisible": "10",
+        "layer": "compare",
+        "name": "Interactive map; drag to pan, scroll or use controls to zoom",
+        "visibleTiles": "15",
+        "world": "middle-earth",
+        "zoom": "4.00"
+      }
+    ],
+    "reloadBefore": {
+      "center": "[2048,2048]",
+      "world": "world-baff72ca36a9",
+      "zoom": "1.13"
+    },
+    "reloadAfter": {
+      "center": "[2048,2048]",
+      "world": "world-baff72ca36a9",
+      "zoom": "1.13"
+    },
+    "reloadPreservesCamera": true,
+    "mousePan": {
+      "before": "[2048,768]",
+      "after": "[2308,668]"
+    },
+    "zoomButton": {
+      "center": "[3840,2193]",
+      "world": "middle-earth",
+      "zoom": "-0.26"
+    },
+    "settledViewportQueuedThree": true,
+    "unusedQueuedJobsCancelled": true,
+    "consoleErrors": []
+  },
+  "mlflow_run_id": "8d580cd486e34a40afb4d34048c7d04e"
+}

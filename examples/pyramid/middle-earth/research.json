@@ -1,0 +1,17 @@
+{
+  "region": "The Shire; Hobbiton/Bywater as a stylistic reference, not an exact surveyed town plan",
+  "era": "pre-Scouring Third Age",
+  "retrieved_on": "2026-10-29",
+  "sources": [
+    {"id":"hobbiton","url":"https://tolkiengateway.net/wiki/Hobbiton","type":"secondary encyclopedia citing Tolkien"},
+    {"id":"bywater-road","url":"https://tolkiengateway.net/wiki/Bywater_Road","type":"secondary encyclopedia citing Tolkien"},
+    {"id":"bywater","url":"https://tolkiengateway.net/wiki/Bywater","type":"secondary encyclopedia citing Tolkien"}
+  ],
+  "claims": [
+    {"claim":"A road connects Hobbiton and Bywater with the East Road.","source_ids":["hobbiton","bywater-road"],"confidence":0.8},
+    {"claim":"The Hobbiton reference includes a watermill near a bridge.","source_ids":["hobbiton"],"confidence":0.8},
+    {"claim":"Houses and hobbit-holes are appropriate settlement features.","source_ids":["bywater"],"confidence":0.8}
+  ],
+  "inferences": ["Small rural lanes, gardens and dispersed dwellings are plausible additions.","Exact footprints, junctions and their placement inside this regional tile are invented."],
+  "constraints": ["Do not assert that the supplied generic Shire landmark pin is the exact position of Hobbiton.","Preserve visible source rivers and regional road continuations.","No modern motorways, cars or skyscrapers.","Do not claim secondary sources establish exact building geometry."]
+}

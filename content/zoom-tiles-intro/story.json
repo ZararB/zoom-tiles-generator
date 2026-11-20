@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "01-hook",
+    "title": "What are zoom tiles?",
+    "duration": 10,
+    "marker": "OBS opener · lower left or full screen",
+    "lines": [
+      [0.45, 2.35, "What are zoom tiles?"],
+      [2.55, 6.55, "Think about the last time you zoomed into Google Maps."],
+      [6.7, 9.75, "You went from a region to a street."]
+    ]
+  },
+  {
+    "slug": "02-tile-pyramid",
+    "title": "A stack of zoom levels",
+    "duration": 13,
+    "marker": "Animation · one, four, sixteen",
+    "lines": [
+      [0.25, 3.65, "Under the hood, there’s a stack of zoom levels."],
+      [3.8, 6.95, "At level zero, the whole world fits in one tile."],
+      [7.1, 9.7, "The next level uses four tiles."],
+      [9.85, 12.7, "Zoom again, and there are sixteen."]
+    ]
+  },
+  {
+    "slug": "03-same-place",
+    "title": "Same place, more detail",
+    "duration": 14,
+    "marker": "Animation · follow the bridge",
+    "lines": [
+      [0.3, 3.9, "As you zoom in, the map loads a more detailed set of tiles."],
+      [4.15, 7.3, "Follow this bridge. The river stays in the same place."],
+      [7.55, 10.35, "Now you can see the streets beside it."],
+      [10.6, 13.75, "That consistency is what makes zooming useful."]
+    ]
+  },
+  {
+    "slug": "04-beyond-earth",
+    "title": "Maps beyond Earth",
+    "duration": 13,
+    "marker": "Animation · knowledge, imaginary and game worlds",
+    "lines": [
+      [0.3, 4.15, "With zTiles, you can build a stack like that for other kinds of maps."],
+      [4.35, 8.3, "It could be a map of science, history, or the internet."],
+      [8.55, 12.65, "Or an imaginary place, like Middle-earth or a game world."]
+    ]
+  },
+  {
+    "slug": "05-science-demo",
+    "title": "Explore a map of science",
+    "duration": 14,
+    "marker": "Actual World Explorer capture · keep full frame",
+    "lines": [
+      [0.4, 3.4, "Here’s a map of science in the zTiles prototype."],
+      [3.6, 7.0, "At the overview, you can see the main fields."],
+      [7.25, 10.1, "Search for physics, then zoom in."],
+      [10.35, 13.6, "Now you can explore mechanics and other subfields."]
+    ]
+  },
+  {
+    "slug": "06-outro",
+    "title": "What would you map?",
+    "duration": 12,
+    "marker": "OBS closing · lower left from 01:10",
+    "lines": [
+      [0.4, 4.6, "The idea is to give you a way to explore worlds at your own pace."],
+      [4.85, 7.9, "Start with the big picture. Follow what interests you."],
+      [8.3, 11.5, "What kind of world would you map?"]
+    ]
+  }
+]

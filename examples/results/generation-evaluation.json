@@ -1,0 +1,423 @@
+{
+  "schema_version": 1,
+  "kind": "actual_cuda_artifact_evaluation",
+  "records": [
+    {
+      "id": "shire-short-prompt",
+      "title": "Middle-earth / Shire \u2014 default",
+      "kind": "pyramid",
+      "success": true,
+      "status": "inference_succeeded",
+      "target": [
+        4,
+        43,
+        19
+      ],
+      "steps": 20,
+      "seed": 42,
+      "elapsed_seconds": 59.594,
+      "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+      "prompt": "Add dispersed hobbit dwellings, winding lanes, gardens and fields. Top-down Shire parchment map. Research-inspired rural settlement. Preserve river and road connections. No modern buildings. Use surrounding context.",
+      "user_direction": "",
+      "detail": "",
+      "artifacts": {
+        "source": "/api/generation-artifact/shire-short-prompt/source.png",
+        "result": "/api/generation-artifact/shire-short-prompt/result.png",
+        "context": "/api/generation-artifact/shire-short-prompt/context.png",
+        "parent": "/api/generation-artifact/shire-short-prompt/parent.png"
+      },
+      "integrity": {
+        "source_sha256": "9ba023b7b7068e5d907e13ab88c7ffa2938de6582daa96cf8d38ac4965d9a874",
+        "source_hash_matches": true,
+        "output_sha256": "f3ec131f55530e93276eebf52e28d41d7ec7927834de9e805f3b423c000a5dcb",
+        "output_hash_matches": true,
+        "output_dimensions": [
+          256,
+          256
+        ]
+      },
+      "seam_diagnostic": {
+        "source_edge_mismatch": 9.99,
+        "generated_edge_mismatch": 42.81,
+        "context_center_matches_source": true,
+        "units": "mean absolute RGB channel difference / 255; lower is more color-continuous",
+        "limitation": "Raster edge-color diagnostic only; does not establish road, water or canonical geometry correctness."
+      },
+      "quality_approved": false,
+      "height_data": false,
+      "visual_review": "Speculative raster draft. Review style, text reinterpretation and edge drift. No generated street geometry is saved."
+    },
+    {
+      "id": "shire-user-gardens",
+      "title": "Middle-earth / Shire \u2014 user gardens",
+      "kind": "pyramid",
+      "success": true,
+      "status": "inference_succeeded",
+      "target": [
+        4,
+        43,
+        19
+      ],
+      "steps": 20,
+      "seed": 42,
+      "elapsed_seconds": 56.141,
+      "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+      "prompt": "More gardens, fewer dwellings, narrow footpaths. No dense town center. Top-down Shire parchment map. Research-inspired rural settlement. Preserve river and road connections. No modern buildings. Use surrounding context.",
+      "user_direction": "More gardens, fewer dwellings, narrow footpaths. No dense town center.",
+      "detail": "",
+      "artifacts": {
+        "source": "/api/generation-artifact/shire-user-gardens/source.png",
+        "result": "/api/generation-artifact/shire-user-gardens/result.png",
+        "context": "/api/generation-artifact/shire-user-gardens/context.png",
+        "parent": "/api/generation-artifact/shire-user-gardens/parent.png"
+      },
+      "integrity": {
+        "source_sha256": "9ba023b7b7068e5d907e13ab88c7ffa2938de6582daa96cf8d38ac4965d9a874",
+        "source_hash_matches": true,
+        "output_sha256": "1b4007d19a5a96ccfc477e8f28619cceb42f0ae054468424ae3b05dfc66b2897",
+        "output_hash_matches": true,
+        "output_dimensions": [
+          256,
+          256
+        ]
+      },
+      "seam_diagnostic": {
+        "source_edge_mismatch": 9.99,
+        "generated_edge_mismatch": 38.72,
+        "context_center_matches_source": true,
+        "units": "mean absolute RGB channel difference / 255; lower is more color-continuous",
+        "limitation": "Raster edge-color diagnostic only; does not establish road, water or canonical geometry correctness."
+      },
+      "quality_approved": false,
+      "height_data": false,
+      "visual_review": "Speculative raster draft. Review style, text reinterpretation and edge drift. No generated street geometry is saved."
+    },
+    {
+      "id": "shire-adjacent-eval",
+      "title": "Middle-earth / Shire \u2014 adjacent tile",
+      "kind": "pyramid",
+      "success": true,
+      "status": "inference_succeeded",
+      "target": [
+        4,
+        44,
+        19
+      ],
+      "steps": 20,
+      "seed": 42,
+      "elapsed_seconds": 41.797,
+      "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+      "prompt": "Add dispersed hobbit dwellings, winding lanes, gardens and fields. Top-down Shire parchment map. Research-inspired rural settlement. Preserve river and road connections. No modern buildings. Use surrounding context.",
+      "user_direction": "",
+      "detail": "",
+      "artifacts": {
+        "source": "/api/generation-artifact/shire-adjacent-eval/source.png",
+        "result": "/api/generation-artifact/shire-adjacent-eval/result.png",
+        "context": "/api/generation-artifact/shire-adjacent-eval/context.png",
+        "parent": "/api/generation-artifact/shire-adjacent-eval/parent.png"
+      },
+      "integrity": {
+        "source_sha256": "7c529560be4790268f6ebc7e7b3bd697406a8289a678802debbb9af38d834494",
+        "source_hash_matches": true,
+        "output_sha256": "e436a05992005e59d108b6c9a5b84ba47185b42513a5eab993daabe985a0c0bd",
+        "output_hash_matches": true,
+        "output_dimensions": [
+          256,
+          256
+        ]
+      },
+      "seam_diagnostic": {
+        "source_edge_mismatch": 11.42,
+        "generated_edge_mismatch": 55.5,
+        "context_center_matches_source": true,
+        "units": "mean absolute RGB channel difference / 255; lower is more color-continuous",
+        "limitation": "Raster edge-color diagnostic only; does not establish road, water or canonical geometry correctness."
+      },
+      "quality_approved": false,
+      "height_data": false,
+      "visual_review": "Speculative raster draft. Review style, text reinterpretation and edge drift. No generated street geometry is saved."
+    },
+    {
+      "id": "shire-deep-eval",
+      "title": "Middle-earth / Shire \u2014 deeper zoom",
+      "kind": "pyramid",
+      "success": true,
+      "status": "inference_succeeded",
+      "target": [
+        5,
+        86,
+        39
+      ],
+      "steps": 20,
+      "seed": 42,
+      "elapsed_seconds": 34.36,
+      "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+      "prompt": "Small gardens and narrow rural lanes; keep existing road connections. Top-down Shire parchment map. Research-inspired rural settlement. Preserve river and road connections. No modern buildings. Use surrounding context.",
+      "user_direction": "Small gardens and narrow rural lanes; keep existing road connections.",
+      "detail": "",
+      "artifacts": {
+        "source": "/api/generation-artifact/shire-deep-eval/source.png",
+        "result": "/api/generation-artifact/shire-deep-eval/result.png",
+        "context": "/api/generation-artifact/shire-deep-eval/context.png",
+        "parent": "/api/generation-artifact/shire-deep-eval/parent.png"
+      },
+      "integrity": {
+        "source_sha256": "1e4a50c50d1d02bede03535443557af6e08834e6482324b41e8c7bdec9b05ef0",
+        "source_hash_matches": true,
+        "output_sha256": "4d114b4cd64a59153559082a5bed13cfa7713ea3fd2a99e8ac80f610218a43dc",
+        "output_hash_matches": true,
+        "output_dimensions": [
+          256,
+          256
+        ]
+      },
+      "seam_diagnostic": {
+        "source_edge_mismatch": 6.11,
+        "generated_edge_mismatch": 73.47,
+        "context_center_matches_source": true,
+        "units": "mean absolute RGB channel difference / 255; lower is more color-continuous",
+        "limitation": "Raster edge-color diagnostic only; does not establish road, water or canonical geometry correctness."
+      },
+      "quality_approved": false,
+      "height_data": false,
+      "visual_review": "Speculative raster draft. Review style, text reinterpretation and edge drift. No generated street geometry is saved."
+    },
+    {
+      "id": "minas-tirith-eval",
+      "title": "Middle-earth / Minas Tirith \u2014 inferred city",
+      "kind": "pyramid",
+      "success": true,
+      "status": "inference_succeeded",
+      "target": [
+        4,
+        73,
+        41
+      ],
+      "steps": 20,
+      "seed": 42,
+      "elapsed_seconds": 55.297,
+      "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+      "prompt": "Stone city, curved streets, small courtyards; preserve visible terrain and water. Top-down fantasy map near Minas Tirith. Preserve roads, water, terrain. Use surrounding context.",
+      "user_direction": "Stone city, curved streets, small courtyards; preserve visible terrain and water.",
+      "detail": "",
+      "artifacts": {
+        "source": "/api/generation-artifact/minas-tirith-eval/source.png",
+        "result": "/api/generation-artifact/minas-tirith-eval/result.png",
+        "context": "/api/generation-artifact/minas-tirith-eval/context.png",
+        "parent": "/api/generation-artifact/minas-tirith-eval/parent.png"
+      },
+      "integrity": {
+        "source_sha256": "a642796a89124b6949188fc277757480afb84e39ca7cf4d58ba161cd1eca5178",
+        "source_hash_matches": true,
+        "output_sha256": "6f8d11f279c8d8dccbb91cfa445d250c23622f6d274145491ece9bbf4445d8d0",
+        "output_hash_matches": true,
+        "output_dimensions": [
+          256,
+          256
+        ]
+      },
+      "seam_diagnostic": {
+        "source_edge_mismatch": 3.93,
+        "generated_edge_mismatch": 80.23,
+        "context_center_matches_source": true,
+        "units": "mean absolute RGB channel difference / 255; lower is more color-continuous",
+        "limitation": "Raster edge-color diagnostic only; does not establish road, water or canonical geometry correctness."
+      },
+      "quality_approved": false,
+      "height_data": false,
+      "visual_review": "Speculative raster draft. Review style, text reinterpretation and edge drift. No generated street geometry is saved."
+    },
+    {
+      "id": "reservoir-canal",
+      "title": "Earth / reservoir and canal",
+      "kind": "earth",
+      "success": true,
+      "status": "inference_succeeded",
+      "target": [
+        7,
+        62,
+        48
+      ],
+      "steps": 4,
+      "seed": 42,
+      "elapsed_seconds": 7.219,
+      "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+      "prompt": "Draw a detailed topographic map. Preserve the reservoir connector and existing road locations.",
+      "user_direction": "",
+      "detail": "",
+      "artifacts": {
+        "source": "/api/generation-artifact/reservoir-canal/source.png",
+        "result": "/api/generation-artifact/reservoir-canal/result.png"
+      },
+      "integrity": {
+        "source_sha256": "597c7da64b1f6ca2f144d42ae5014cc6e18925d3f31ba3cfdeb9326969bb4e95",
+        "source_hash_matches": true,
+        "output_sha256": "610ddaf5d37da0c915d52269c8bdc8b77124919e2162ef3474d09815b6f0572c",
+        "output_hash_matches": true,
+        "output_dimensions": [
+          256,
+          256
+        ]
+      },
+      "seam_diagnostic": null,
+      "quality_approved": false,
+      "height_data": false,
+      "visual_review": "Speculative raster draft. Review style, text reinterpretation and edge drift. No generated street geometry is saved."
+    },
+    {
+      "id": "coastal-headland",
+      "title": "Earth / coastal headland \u2014 4-step legacy",
+      "kind": "earth",
+      "success": true,
+      "status": "inference_succeeded",
+      "target": [
+        7,
+        65,
+        42
+      ],
+      "steps": 4,
+      "seed": 42,
+      "elapsed_seconds": 13.703,
+      "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+      "prompt": "Use light coastal terrain shading. Preserve the headland, bay mouth and exact coastline.",
+      "user_direction": "",
+      "detail": "",
+      "artifacts": {
+        "source": "/api/generation-artifact/coastal-headland/source.png",
+        "result": "/api/generation-artifact/coastal-headland/result.png"
+      },
+      "integrity": {
+        "source_sha256": "52fa1ea9128f1ccce22fdf70eef91b426bd35d189275b468a3614cde40ec5d3a",
+        "source_hash_matches": true,
+        "output_sha256": "79d6afa1fe899f6cc1b7cf1de1fd8e9047fd2d06b93be7d84bb85a27a6abbfe8",
+        "output_hash_matches": true,
+        "output_dimensions": [
+          256,
+          256
+        ]
+      },
+      "seam_diagnostic": null,
+      "quality_approved": false,
+      "height_data": false,
+      "visual_review": "Speculative raster draft. Review style, text reinterpretation and edge drift. No generated street geometry is saved."
+    },
+    {
+      "id": "earth-coastal-20",
+      "title": "Earth / coastal headland \u2014 20-step retest",
+      "kind": "evaluation",
+      "success": true,
+      "status": "inference_succeeded",
+      "target": [
+        7,
+        65,
+        42
+      ],
+      "steps": 20,
+      "seed": 42,
+      "elapsed_seconds": 128.188,
+      "model_revision": "31519b5cb02a7fd89b906d88731cd4d6a7bbf88d",
+      "prompt": "Use light coastal terrain shading. Preserve the headland, bay mouth and exact coastline.",
+      "user_direction": "",
+      "detail": "",
+      "artifacts": {
+        "source": "/api/generation-artifact/earth-coastal-20/source.png",
+        "result": "/api/generation-artifact/earth-coastal-20/result.png"
+      },
+      "integrity": {
+        "source_sha256": "52fa1ea9128f1ccce22fdf70eef91b426bd35d189275b468a3614cde40ec5d3a",
+        "source_hash_matches": true,
+        "output_sha256": "79820eaec0a03e8fe096656180d3377e234eced3e8b375a3d5a9ec4ac2e44d8a",
+        "output_hash_matches": true,
+        "output_dimensions": [
+          256,
+          256
+        ]
+      },
+      "seam_diagnostic": null,
+      "quality_approved": false,
+      "height_data": false,
+      "visual_review": "Speculative raster draft. Review style, text reinterpretation and edge drift. No generated street geometry is saved."
+    }
+  ],
+  "view_modes": [
+    "isometric",
+    "topdown",
+    "comparison",
+    "stack"
+  ],
+  "projection_note": "Isometric mode projects the actual flat PNGs; it does not create 3D terrain or run another model.",
+  "attribution": "Middle-earth fan-map source via Fraser Marlow; Earth basemap retains OpenStreetMap/OpenFreeMap attribution.",
+  "browser": {
+    "records": [
+      {
+        "case": "minas-tirith-eval",
+        "mode": "isometric",
+        "sha": "6f8d11f279c8d8dccbb91cfa445d250c23622f6d274145491ece9bbf4445d8d0"
+      },
+      {
+        "case": "shire-deep-eval",
+        "mode": "isometric",
+        "sha": "4d114b4cd64a59153559082a5bed13cfa7713ea3fd2a99e8ac80f610218a43dc"
+      },
+      {
+        "case": "shire-adjacent-eval",
+        "mode": "topdown",
+        "sha": "e436a05992005e59d108b6c9a5b84ba47185b42513a5eab993daabe985a0c0bd"
+      },
+      {
+        "case": "shire-user-gardens",
+        "mode": "stack",
+        "sha": "1b4007d19a5a96ccfc477e8f28619cceb42f0ae054468424ae3b05dfc66b2897"
+      },
+      {
+        "case": "minas-tirith-eval",
+        "mode": "comparison",
+        "sha": "6f8d11f279c8d8dccbb91cfa445d250c23622f6d274145491ece9bbf4445d8d0"
+      },
+      {
+        "case": "reservoir-canal",
+        "mode": "isometric",
+        "sha": "610ddaf5d37da0c915d52269c8bdc8b77124919e2162ef3474d09815b6f0572c"
+      },
+      {
+        "case": "coastal-headland",
+        "mode": "comparison",
+        "sha": "79d6afa1fe899f6cc1b7cf1de1fd8e9047fd2d06b93be7d84bb85a27a6abbfe8"
+      },
+      {
+        "case": "shire-short-prompt",
+        "mode": "isometric",
+        "sha": "f3ec131f55530e93276eebf52e28d41d7ec7927834de9e805f3b423c000a5dcb"
+      },
+      {
+        "case": "earth-coastal-20",
+        "mode": "comparison",
+        "sha": "79820eaec0a03e8fe096656180d3377e234eced3e8b375a3d5a9ec4ac2e44d8a"
+      },
+      {
+        "case": "earth-coastal-20",
+        "mode": "isometric",
+        "sha": "79820eaec0a03e8fe096656180d3377e234eced3e8b375a3d5a9ec4ac2e44d8a"
+      },
+      {
+        "case": "minas-tirith-eval",
+        "mode": "isometric",
+        "sha": "6f8d11f279c8d8dccbb91cfa445d250c23622f6d274145491ece9bbf4445d8d0"
+      }
+    ],
+    "console_errors": [],
+    "view_change_preserves_output_hash": true
+  },
+  "summary": {
+    "recorded_cases": 8,
+    "inference_successes": 8,
+    "quality_approved": 0,
+    "fresh_requests": 4,
+    "fresh_middle_earth_cases": [
+      "shire-adjacent-eval",
+      "shire-deep-eval",
+      "minas-tirith-eval"
+    ]
+  },
+  "mlflow_run_id": "0b41b548702a4aa7893c1bf1ae6513ff"
+}

@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "kind": "actual_browser_recording_and_video_probe",
+  "videos": [
+    {
+      "file": "01-tiles-within-tiles.mp4",
+      "bytes": 1562497,
+      "sha256": "54379b2e5f5d3bffb78fdec89dc44f99b2612697ebf0ac44b1873339c5ecc615",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1000,
+          "nb_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000"
+      }
+    },
+    {
+      "file": "02-context-becomes-detail.mp4",
+      "bytes": 784852,
+      "sha256": "055d12f428e67727797af104533261a176cd2781dd2c364c55c22ff7e1aedfab",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1000,
+          "nb_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000"
+      }
+    },
+    {
+      "file": "03-one-world-every-level.mp4",
+      "bytes": 801704,
+      "sha256": "5718960ea39b3e8fb26a62824dd29496242c335f173222723f40cac89022ee23",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1000,
+          "nb_frames": "300"
+        }
+      ],
+      "format": {
+        "duration": "10.000000"
+      }
+    },
+    {
+      "file": "make-every-level.mp4",
+      "bytes": 4757398,
+      "sha256": "cbeda1720631e08f05c762e3e3e9d309f8935c344a5170d65688792bbaf7eca5",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1600,
+          "height": 1000,
+          "nb_frames": "1080"
+        }
+      ],
+      "format": {
+        "duration": "36.000000"
+      }
+    }
+  ],
+  "gif": {
+    "width": 800,
+    "height": 500,
+    "frames": 120
+  },
+  "javascript_syntax": "passed",
+  "browser_console_errors": [],
+  "ui_checks": [
+    "Scrubbed scenes at 7.5, 16.2 and 25.5 seconds",
+    "Full recording reached 36 seconds and saved via loopback",
+    "Playback controls restored after recording",
+    "390px viewport: document content width 390px; no horizontal overflow",
+    "Original viewport restored"
+  ],
+  "visual_checks": [
+    "Viewed empty central tile and context paths from exported video at 12 seconds",
+    "Viewed generated-tile and hierarchy posters",
+    "Viewed exported end card at 34 seconds"
+  ],
+  "original_artwork": true,
+  "live_model_recording": false
+}

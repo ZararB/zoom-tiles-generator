@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "kind": "actual_worker_requests",
+  "records": [
+    {
+      "case_id": "coastal-headland",
+      "kind": "actual_cuda_inference",
+      "success": true,
+      "steps": 4,
+      "seed": 42,
+      "elapsed_seconds": 13.703,
+      "output_sha256": "79d6afa1fe899f6cc1b7cf1de1fd8e9047fd2d06b93be7d84bb85a27a6abbfe8"
+    },
+    {
+      "case_id": "flood-expansion",
+      "kind": "actual_worker_request",
+      "status": "rejected",
+      "http_status": 422,
+      "detail": "Image did not pass the model safety checker",
+      "steps": 4,
+      "seed": 42
+    },
+    {
+      "case_id": "reservoir-canal",
+      "kind": "actual_cuda_inference",
+      "success": true,
+      "steps": 4,
+      "seed": 42,
+      "elapsed_seconds": 7.219,
+      "output_sha256": "610ddaf5d37da0c915d52269c8bdc8b77124919e2162ef3474d09815b6f0572c"
+    },
+    {
+      "case_id": "reservoir-canal-20",
+      "kind": "actual_worker_request",
+      "status": "rejected",
+      "http_status": 422,
+      "detail": "Image did not pass the model safety checker",
+      "steps": 20,
+      "seed": 42
+    },
+    {
+      "case_id": "three-islands",
+      "kind": "actual_cuda_inference",
+      "success": true,
+      "steps": 4,
+      "seed": 42,
+      "elapsed_seconds": 7.047,
+      "output_sha256": "c9c006c5ee5df96953c8b5b32d5b2f78b1d081093e3b0a70729828a20b19d3d1"
+    }
+  ]
+}

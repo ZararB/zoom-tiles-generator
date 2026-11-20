@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "geometry_cases": 11,
+  "before_after_browser_captures": 22,
+  "zoom_pan_recordings": 3,
+  "successful_cuda_drafts": 3,
+  "recorded_model_rejections": 2,
+  "wheel_build": "passed",
+  "fresh_cpu_install": "passed",
+  "repository_visibility_required": "private",
+  "authenticity_checks": "captured world hashes and image hashes verified"
+}

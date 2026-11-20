@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "case_id": "coastal-headland",
+  "scene_id": "coastal-headland",
+  "prompt": "Use light coastal terrain shading. Preserve the headland, bay mouth and exact coastline.",
+  "z": 7,
+  "x": 65,
+  "y": 42,
+  "world_sha256": "e5a984d97b5b4eaade00be80b3cd36f18cf72caa9c99d6d14b2c3c5e0fbc7485",
+  "world_revision": "2026-10-29T05:44:29.844287+00:00",
+  "source_sha256": "52fa1ea9128f1ccce22fdf70eef91b426bd35d189275b468a3614cde40ec5d3a",
+  "capture": "actual composed slippy tile recorded by the example viewer"
+}

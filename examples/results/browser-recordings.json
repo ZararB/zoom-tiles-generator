@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "kind": "actual_browser_screenshots",
+  "cases": [
+    {
+      "id": "rename-only",
+      "phase": "before",
+      "world_sha256": "a1a5a0da4f56b6201ce26847d5c3d013dca2868fc102b963fd2c1501f6ca9b81"
+    },
+    {
+      "id": "rename-only",
+      "phase": "after",
+      "world_sha256": "302a16f960522195c5ad8ba4c8127b3d35ce7f0adca4e6d48a74cd6e05386434"
+    },
+    {
+      "id": "great-lakes-merge",
+      "phase": "before",
+      "world_sha256": "941c55781a01bb0f2e9b7d3fc5edc163dda9fa30c0300ea96d72326ccc58983b",
+      "status": "Five Great Lakes into two / before loaded"
+    },
+    {
+      "id": "great-lakes-merge",
+      "phase": "after",
+      "world_sha256": "89a14bb07aa2dfcd2f61b5db8ca6df890cfd3b2674cc218c91a941c1c9866d7f",
+      "status": "Five Great Lakes into two / after loaded"
+    },
+    {
+      "id": "reservoir-canal",
+      "phase": "before",
+      "world_sha256": "c5170884d6939897a0b47aea63d327a764d1c05fd9a403a7828e74748df9fc2c",
+      "status": "Join reservoirs with a canal / before loaded"
+    },
+    {
+      "id": "reservoir-canal",
+      "phase": "after",
+      "world_sha256": "332e7f62789c6984d5a1ba1a2a8714a62908f99c864f442a5a047bfa8efb7ef3",
+      "status": "Join reservoirs with a canal / after loaded"
+    },
+    {
+      "id": "three-islands",
+      "phase": "before",
+      "world_sha256": "597e71fc996878b8a12febcc15bf0853fb2cd303f13fc51009d7686bffbd89bd",
+      "status": "Carve three islands / before loaded"
+    },
+    {
+      "id": "three-islands",
+      "phase": "after",
+      "world_sha256": "f55346e714d85f69824dd8a532c359fbf6855300e24ef4e5edc7ede4378acee7",
+      "status": "Carve three islands / after loaded"
+    },
+    {
+      "id": "lake-recession",
+      "phase": "before",
+      "world_sha256": "48d71523dd6ee3dddc1bc01cee0202c980ff6fc6d6cf62d6b1cccb335594b062",
+      "status": "Shrink a reservoir / before loaded"
+    },
+    {
+      "id": "lake-recession",
+      "phase": "after",
+      "world_sha256": "2ab04eb849fd9cbb468633f99439fb3ee3818b26c0a338b9036d4fd85a597a74",
+      "status": "Shrink a reservoir / after loaded"
+    },
+    {
+      "id": "flood-expansion",
+      "phase": "before",
+      "world_sha256": "8b7861349a9456fc964ac70158cd3d6b119471678e645264799fad4d4fcb127c",
+      "status": "Expand a floodplain lake / before loaded"
+    },
+    {
+      "id": "flood-expansion",
+      "phase": "after",
+      "world_sha256": "a3fa82957de6695e201aa3ae994746786c422e50936090664cbcad477e163c66",
+      "status": "Expand a floodplain lake / after loaded"
+    },
+    {
+      "id": "inland-sea-split",
+      "phase": "before",
+      "world_sha256": "30c0e869e2931f9cb508823c4bab556a3b9355999a31763f616e256bdb20185c",
+      "status": "Divide an inland sea / before loaded"
+    },
+    {
+      "id": "inland-sea-split",
+      "phase": "after",
+      "world_sha256": "04fcc415515fe8ff9ae432c7278c5528efc4ddfe0e1664b514ee2f586c14a449",
+      "status": "Divide an inland sea / after loaded"
+    },
+    {
+      "id": "coastal-headland",
+      "phase": "before",
+      "world_sha256": "46eede9010afbf5d4b424af5850a1d38d510a53befde78134df31b38f9066e03",
+      "status": "Extend a coastal headland / before loaded"
+    },
+    {
+      "id": "coastal-headland",
+      "phase": "after",
+      "world_sha256": "e5a984d97b5b4eaade00be80b3cd36f18cf72caa9c99d6d14b2c3c5e0fbc7485",
+      "status": "Extend a coastal headland / after loaded"
+    },
+    {
+      "id": "border-relocation",
+      "phase": "before",
+      "world_sha256": "7414fa522086fc48faf7d68dab210907eba8ec44a99353cebeada14ff6281009",
+      "status": "Move a district border / before loaded"
+    },
+    {
+      "id": "border-relocation",
+      "phase": "after",
+      "world_sha256": "0e7b81f5c8deec29f6833bfb7d10d5c43ba2998efe47f6460cb5aabc1357ebfd",
+      "status": "Move a district border / after loaded"
+    },
+    {
+      "id": "river-reshaping",
+      "phase": "before",
+      "world_sha256": "9f6341ddd3a9dd97bb7567294026ec8fd89be739392a490f6e862f02c25cabec",
+      "status": "Reshape a river bend / before loaded"
+    },
+    {
+      "id": "river-reshaping",
+      "phase": "after",
+      "world_sha256": "08259228c8725bd299f6bcf8d7ff9597634695a91f71de84a8a8ce3fab203781",
+      "status": "Reshape a river bend / after loaded"
+    },
+    {
+      "id": "invalid-bowtie",
+      "phase": "before",
+      "world_sha256": "179e5cb1238ed073776529d3e327e8b10a56c2f1945948aa356dd023af9004ac",
+      "status": "Reject a crossing shoreline / before loaded"
+    },
+    {
+      "id": "invalid-bowtie",
+      "phase": "after",
+      "world_sha256": "179e5cb1238ed073776529d3e327e8b10a56c2f1945948aa356dd023af9004ac",
+      "status": "Invalid shoreline rejected; saved map unchanged."
+    }
+  ],
+  "console_errors": []
+}

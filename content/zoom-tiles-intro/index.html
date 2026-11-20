@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What are zoom tiles? | zTiles</title>
+<style>
+  html { color-scheme: dark; background: #000; color: #fff; font: 16px system-ui; }
+  body { max-width: 1440px; margin: 0 auto; }
+  canvas { display: block; width: 100%; height: auto; }
+  .controls { display: flex; gap: 1rem; align-items: center; padding: 1rem; }
+  input { flex: 1; accent-color: #f97316; }
+  button { font: inherit; padding: .5rem 1rem; }
+  output { min-width: 5em; }
+</style>
+<canvas id="film" width="1920" height="1080" aria-label="What are zoom tiles, an animated explainer"></canvas>
+<div class="controls">
+  <button id="play" type="button">Play</button>
+  <input id="position" aria-label="Playback position" type="range" min="0" step="0.033333333">
+  <output id="clock"></output>
+</div>
+<script type="module" src="film.js"></script>
+</html>

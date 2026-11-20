@@ -1,0 +1,16 @@
+{
+  "image_width_px": 7680,
+  "image_height_px": 4386,
+  "landmarks": [
+    { "id": "shire", "name": "The Shire", "px": 2772, "py": 1258 },
+    { "id": "rivendell", "name": "Rivendell", "px": 3922, "py": 1096 },
+    { "id": "minas-tirith", "name": "Minas Tirith", "px": 4720, "py": 2641 },
+    { "id": "barad-dur", "name": "Barad-dûr", "px": 5613, "py": 2466 },
+    { "id": "edoras", "name": "Edoras", "px": 4319, "py": 976 },
+    { "id": "grey-havens", "name": "Grey Havens", "px": 249, "py": 1094 }
+  ],
+  "sample_tiles": {
+    "shire_native_z2": { "z": 2, "x": 10, "y": 4, "note": "256px tiles at native z=2 near Shire" },
+    "shire_extended_z4": { "z": 4, "x": 43, "y": 19, "note": "directory z=4 for img2img QA (pyramid extended)" }
+  }
+}

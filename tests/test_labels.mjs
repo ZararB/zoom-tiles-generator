@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {renamedStyle, geometrySignature, LABEL_SOURCE, LABEL_LAYER} from '../dev-ui/lib/label-style.js';
+
+const base = JSON.parse(fs.readFileSync(new URL('../dev-ui/lib/basemap-style.json', import.meta.url)));
+const original = structuredClone(base);
+const edited = renamedStyle(base, {enabled:true, lake_name:'Lake America'});
+assert.deepEqual(base, original, 'Source style must remain immutable');
+assert.equal(geometrySignature(edited), geometrySignature(base), 'Every shoreline/fill/line must remain unchanged');
+for (const [id, source] of Object.entries(base.sources)) assert.deepEqual(edited.sources[id], source);
+const changed = base.layers.filter((layer, i) => JSON.stringify(layer) !== JSON.stringify(edited.layers[i]));
+assert.equal(changed.length, 2);
+assert(changed.every(layer => layer.type === 'symbol' && layer['source-layer'] === 'water_name'));
+assert.equal(edited.sources[LABEL_SOURCE].data.features[0].properties.name, 'Lake America');
+assert.deepEqual(edited.sources[LABEL_SOURCE].data.features[0].geometry, {type:'Point',coordinates:[-77.9,43.77]});
+const label = edited.layers.find(layer => layer.id === LABEL_LAYER);
+assert.equal(label.type, 'symbol');
+assert.equal(label.minzoom, undefined, 'Custom name must not disappear at wider zooms');
+assert.equal(label.layout['text-allow-overlap'], true, 'Basemap collisions must not hide the custom name');
+assert.deepEqual(renamedStyle(base, {enabled:false,lake_name:'Lake America'}), base);
+console.log('Passed: immutable shoreline geometry, original sources, exact reset, and one persistent geographic name anchor.');

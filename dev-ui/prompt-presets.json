@@ -1,0 +1,17 @@
+[
+  {
+    "id": "dark_carto",
+    "label": "Dark carto (default)",
+    "prompt": "Edit this map basemap tile. Dark cartographic style, crisp coastlines and roads. Subtle stylized terrain — preserve geography."
+  },
+  {
+    "id": "two_great_lakes",
+    "label": "Great Lakes — preserve saved geometry",
+    "prompt": "Style this fictional Great Lakes map with crisp cartographic detail. Preserve the exact water and land boundaries from the source; the saved vector geometry defines the two lakes."
+  },
+  {
+    "id": "pyramid_fantasy",
+    "label": "Fantasy world (pyramid-style)",
+    "prompt": "Stylized fantasy map tile. Keep land/water boundaries aligned with the source. Rich ink-and-parchment detail on coasts and forests."
+  }
+]

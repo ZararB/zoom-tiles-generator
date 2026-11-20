@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "kind": "actual_worker_request",
+  "case_id": "reservoir-canal-20",
+  "status": "rejected",
+  "created_at_utc": "2026-10-29T05:50:38.567799+00:00",
+  "http_status": 422,
+  "detail": "Image did not pass the model safety checker",
+  "steps": 20,
+  "seed": 42,
+  "source_sha256": "597c7da64b1f6ca2f144d42ae5014cc6e18925d3f31ba3cfdeb9326969bb4e95",
+  "world_sha256": "332e7f62789c6984d5a1ba1a2a8714a62908f99c864f442a5a047bfa8efb7ef3",
+  "draft_only": true
+}

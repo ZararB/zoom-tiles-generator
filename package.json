@@ -1,0 +1,7 @@
+{
+  "name": "zoom-tiles-generator-demo",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {"test": "node tests/test_labels.mjs && node tests/test_detail_rendering.mjs"}
+}

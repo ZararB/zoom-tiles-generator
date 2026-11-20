@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zoom Tiles Generator</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./tile-lab.css" />
+    <link rel="stylesheet" href="./vendor/maplibre-gl.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Zoom Tiles Generator</h1>
+      <span id="health-badge" class="badge">worker: …</span>
+      <span id="tile-badge" class="badge">z/x/y: —</span>
+    </header>
+    <div class="layout">
+      <div id="map"></div>
+      <aside class="side">
+        <div class="panel" id="examples-panel">
+          <h2>Recorded examples</h2>
+          <label for="example-select">Example</label><select id="example-select"></select>
+          <p id="example-description"></p>
+          <div class="name-actions"><button id="example-before" type="button" class="secondary">Load before</button><button id="example-after" type="button">Load after</button></div>
+          <p id="example-status" role="status">Choose a fictional edit to compare.</p>
+        </div>
+        <div class="panel" id="geography-panel">
+          <h2>World geometry</h2>
+          <p>Saved water, land and borders. This is a fictional local map layer.</p>
+          <div class="name-actions">
+            <button type="button" id="load-two-lakes">5 Great Lakes → 2</button>
+            <button type="button" id="focus-geography" class="secondary">Focus edits</button>
+          </div>
+          <p class="check"><input id="geography-visible" type="checkbox" /><label for="geography-visible">Show custom geography</label></p>
+          <div class="name-actions">
+            <button type="button" id="draw-water" class="secondary">Draw water</button>
+            <button type="button" id="draw-land" class="secondary">Draw land</button>
+            <button type="button" id="draw-border" class="secondary">Draw border</button>
+            <button type="button" id="finish-geometry">Finish shape</button>
+            <button type="button" id="undo-point" class="secondary">Undo point</button>
+            <button type="button" id="cancel-geometry" class="secondary">Cancel drawing</button>
+          </div>
+          <label for="geometry-feature">Feature</label><select id="geometry-feature"></select>
+          <label for="geometry-name">Feature name</label><input id="geometry-name" type="text" maxlength="120" />
+          <div class="name-actions">
+            <button type="button" id="save-feature" class="secondary">Save name</button>
+            <button type="button" id="edit-vertices" class="secondary">Edit vertices</button>
+            <button type="button" id="delete-feature" class="secondary">Delete feature</button>
+            <button type="button" id="undo-geography" class="secondary">Undo geometry</button>
+            <button type="button" id="export-geography" class="secondary">Export GeoJSON</button>
+          </div>
+          <p id="geography-status" role="status">Loading geography…</p>
+          <p id="render-status" role="status">Live vector detail loads as you pan and zoom.</p>
+          <p class="check"><input id="auto-refine" type="checkbox" /><label for="auto-refine">Background AI previews for this view</label></p>
+          <p id="refinement-status" role="status">Detailed map navigation is live. AI previews use a separate GPU queue.</p>
+        </div>
+        <div class="panel" id="name-panel">
+          <h2>Persistent map name</h2>
+          <p>Rename Lake Ontario while keeping its water and shoreline unchanged.</p>
+          <label for="lake-name">Lake name</label>
+          <input id="lake-name" type="text" maxlength="80" value="Lake America" />
+          <div class="name-actions">
+            <button type="button" id="apply-name">Apply name</button>
+            <button type="button" id="reset-name" class="secondary">Restore original</button>
+            <button type="button" id="focus-lake" class="secondary">Show lake</button>
+          </div>
+          <p id="name-status" role="status">Loading saved map name…</p>
+        </div>
+        <div class="panel">
+          <h2>Basemap source</h2>
+          <label for="provider">Map source</label>
+          <select id="provider">
+            <option value="vector" selected>OpenStreetMap vector — editable names</option>
+            <option value="osm">OpenStreetMap raster — original names</option>
+            <option value="carto_dark" disabled>CARTO dark (key required)</option>
+            <option value="carto_light" disabled>CARTO light (key required)</option>
+          </select>
+          <p class="check" style="margin-top: 10px">
+            <input type="checkbox" id="use-mosaic" checked />
+            <label for="use-mosaic" style="margin: 0">Send regional mosaic context (3×3)</label>
+          </p>
+        </div>
+        <div class="panel">
+          <h2>Slippy tile</h2>
+          <div class="row">
+            <div>
+              <label for="z">z</label>
+              <input type="number" id="z" min="0" max="18" value="8" />
+            </div>
+            <div>
+              <label for="x">x</label>
+              <input type="number" id="x" min="0" value="0" />
+            </div>
+            <div>
+              <label for="y">y</label>
+              <input type="number" id="y" min="0" value="0" />
+            </div>
+          </div>
+          <p style="font-size: 12px; color: var(--muted); margin: 8px 0 0">
+            Click the map to set x/y at current zoom.
+          </p>
+        </div>
+        <div class="panel">
+          <h2>Prompt</h2>
+          <label for="preset">Preset</label>
+          <select id="preset"></select>
+          <textarea id="prompt" style="margin-top: 8px">Edit this map basemap tile. Dark cartographic style, crisp coastlines and roads. Subtle stylized terrain — preserve geography.</textarea>
+          <div style="margin-top: 8px; display: flex; gap: 8px; flex-wrap: wrap">
+            <button type="button" id="btn-run">Run img2img</button>
+            <button type="button" id="btn-refresh" class="secondary">Refresh source</button>
+            <button type="button" id="btn-download" class="secondary" disabled>Download result</button>
+            <button type="button" id="btn-download-source" class="secondary" disabled>Download source</button>
+            <button type="button" id="btn-record-source" class="secondary" disabled>Record source example</button>
+            <button type="button" id="btn-download-manifest" class="secondary" disabled>Download manifest</button>
+          </div>
+          <p id="error" class="err" hidden></p>
+        </div>
+        <div class="panel">
+          <h2>Preview</h2>
+          <div class="tiles">
+            <div>
+              <label>Source</label>
+              <div class="tile-preview" id="src-preview"><span>—</span></div>
+            </div>
+            <div>
+              <label>Result</label>
+              <div class="tile-preview" id="dst-preview"><span>—</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="panel">
+          <h2>Log</h2>
+          <div id="log"></div>
+        </div>
+      </aside>
+    </div>
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./vendor/maplibre-gl.js"></script>
+    <script src="./vendor/leaflet-maplibre-gl.js"></script>
+    <script type="module" src="./tile-lab.js?v=detail-v2"></script>
+  </body>
+</html>

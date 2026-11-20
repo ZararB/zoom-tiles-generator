@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "case_id": "three-islands",
+  "scene_id": "three-islands",
+  "prompt": "Use subtle green terrain texture. Keep all three islands and their exact coastlines.",
+  "z": 7,
+  "x": 72,
+  "y": 72,
+  "world_sha256": "f55346e714d85f69824dd8a532c359fbf6855300e24ef4e5edc7ede4378acee7",
+  "world_revision": "2026-10-29T05:33:12.882906+00:00",
+  "source_sha256": "8660ea95116140e4a68eb3fbd0615cc59bee6b0c58c820277556e59db9eeef3d",
+  "capture": "actual composed slippy tile downloaded from the example viewer"
+}

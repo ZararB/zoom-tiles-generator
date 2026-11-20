@@ -1,0 +1,14 @@
+{
+  "slug": "middle-earth",
+  "name": "Middle-earth (Third Age fan map)",
+  "map_width_px": 7680,
+  "map_height_px": 4386,
+  "native_min_z": 0,
+  "native_max_z": 2,
+  "extended_min_z": -2,
+  "extended_max_z": 8,
+  "leaflet_zoom_offset": 2,
+  "style_prompt": "hand-drawn fantasy map, parchment, Tolkien-inspired cartography",
+  "upstream_url_template": "https://middle-earth-interactive-map.web.app/tiles/{z}/{x}/{y}.jpg",
+  "attribution": "Map artwork: fan/educational use via middle-earth-interactive-map.web.app (Fraser Marlow). Tolkien estate rights not claimed."
+}

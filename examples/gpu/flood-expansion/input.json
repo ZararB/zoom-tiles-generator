@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "case_id": "flood-expansion",
+  "scene_id": "flood-expansion",
+  "prompt": "Create a readable floodplain map with muted terrain. Keep the saved flooded area exact.",
+  "z": 7,
+  "x": 31,
+  "y": 51,
+  "world_sha256": "a3fa82957de6695e201aa3ae994746786c422e50936090664cbcad477e163c66",
+  "world_revision": "2026-10-29T05:44:25.851073+00:00",
+  "source_sha256": "75b0973c7f58c3b326afc0d40d72a80cb709193593390b2661e89ea8915d79f4",
+  "capture": "actual composed slippy tile recorded by the example viewer"
+}

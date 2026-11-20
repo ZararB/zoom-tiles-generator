@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>World Explorer — text to every level</title>
+<link rel="stylesheet" href="world-explorer.css"><main>
+<header><strong>ZOOM TILES GENERATOR</strong><span>MAKE EVERY LEVEL</span></header>
+<aside><h1>Create a world.<br>Explore every level.</h1><label for="prompt">Describe your map</label><textarea id="prompt" rows="4" placeholder="A map of science, organized into fields and subfields…"></textarea>
+<div class="examples"><button id="science">Map of science</button><button id="history">Map of history</button><button id="entertainment">Media &amp; entertainment</button></div><label class="check"><input id="text-ai" type="checkbox">Use local AI topic planner</label><p id="planner-status" class="small">Checking local planner…</p><button id="create" class="primary">Create map from text</button><p id="create-status" role="status"></p>
+<label for="world">Your maps</label><select id="world" aria-label="Map"></select><label for="layer">Map layer</label><select id="layer"><option value="blended">AI drafts · blended edges</option><option value="raw">AI drafts · raw</option><option value="original">Original / structured source</option><option value="compare">Swipe original ↔ AI blended</option></select>
+<label id="swipe-label" hidden>Comparison split <input id="swipe" type="range" min="0" max="100" value="50"></label>
+<label for="search">Find a place or topic</label><input id="search" placeholder="Shire, Minas Tirith, Physics…"><button id="find">Go to topic / place</button>
+<label class="check"><input id="auto" type="checkbox" checked>Generate after navigation settles</label><p class="small">Up to 3 visible targets per viewport; 12 new tiles per map/session. Cold GPU jobs run in the background.</p>
+<button id="generate">Generate center tile</button><button id="fit">Fit entire map</button>
+<section id="world-info"></section><section id="jobs" aria-live="polite"></section>
+<p class="small">Text AI outlines are unverified; fast scaffolds use curated or user topics. Neither performs live research. GPU imagery is a draft; labels and topic positions stay in the saved world.</p></aside>
+<section class="map-area"><canvas id="map" aria-label="Interactive map; drag to pan, scroll or use controls to zoom"></canvas><div class="map-controls"><button id="plus" aria-label="Zoom in">+</button><button id="minus" aria-label="Zoom out">−</button><span id="zoom"></span></div><div id="map-status" role="status">Loading map…</div><div id="attribution"></div></section>
+</main><script type="module" src="world-explorer.js"></script></html>

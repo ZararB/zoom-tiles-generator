@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "case_id": "reservoir-canal-20",
+  "scene_id": "reservoir-canal",
+  "prompt": "Draw a detailed topographic map. Preserve the reservoir connector and existing road locations.",
+  "z": 7,
+  "x": 62,
+  "y": 48,
+  "world_sha256": "332e7f62789c6984d5a1ba1a2a8714a62908f99c864f442a5a047bfa8efb7ef3",
+  "world_revision": "2026-10-29T05:49:02.064702+00:00",
+  "source_sha256": "597c7da64b1f6ca2f144d42ae5014cc6e18925d3f31ba3cfdeb9326969bb4e95",
+  "capture": "Same actual composed source as the four-step canal sample; higher-step comparison.",
+  "variant_of": "reservoir-canal"
+}

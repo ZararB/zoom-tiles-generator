@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Make every level — Zoom Tiles Generator</title>
+<link rel="stylesheet" href="animation.css">
+<main>
+  <header><a href="animation.html" aria-label="Zoom Tiles Generator home">ZOOM TILES GENERATOR<span> / THE IDEA IN MOTION</span></a><span class="edition">ISOMETRIC EXPLAINER / 01</span></header>
+  <section class="stage" aria-label="Animated explanation of hierarchical map tiles and context-driven generation">
+    <canvas id="film" width="1600" height="1000" role="img" aria-label="An isometric map subdivides into tiles, neighboring tiles inform a missing tile, and deeper levels reveal new detail."></canvas>
+  </section>
+  <div class="transport">
+    <button id="play" type="button" aria-label="Pause animation">Pause</button>
+    <label class="scrub"><span class="sr-only">Animation position</span><input id="position" type="range" min="0" max="36" step="0.01" value="0"></label>
+    <output id="clock">00:00 / 00:36</output><button id="replay" type="button">Replay</button>
+  </div>
+  <nav aria-label="Animation chapters">
+    <button data-start="0" aria-pressed="true"><small>01 / STRUCTURE</small>Tiles within tiles</button>
+    <button data-start="10" aria-pressed="false"><small>02 / GENERATION</small>Context becomes detail</button>
+    <button data-start="20" aria-pressed="false"><small>03 / CONTINUITY</small>One world, every level</button>
+  </nav>
+  <footer><p id="caption" aria-live="polite">One map becomes a hierarchy. Each tile can divide into four children.</p><p class="note">Concept animation with original illustrative map art. Current pipeline: raster drafts. Persistent generated streets and multi-scale geometry remain in development.</p><div class="exports"><button id="record" type="button">Record full animation</button><span id="export-status" role="status">Local export requires the animation preview server.</span></div></footer>
+</main><script type="module" src="animation.js"></script>
+</html>

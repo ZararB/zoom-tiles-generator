@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Make every level — aligned stack</title><link rel="stylesheet" href="animation.css">
+<style>#film{aspect-ratio:16/9}header{justify-content:flex-start}header a{margin-right:20px}</style>
+<main><header><a href="animation-stacked.html">ZOOM TILES GENERATOR / ALIGNED STACK</a><a href="animation.html">Original version ↗</a></header>
+<section class="stage" aria-label="Horizontal isometric map layers stacked on a shared vertical axis, with all explanatory text on the left">
+<canvas id="film" width="1920" height="1080" role="img" aria-label="Four different zoom levels remain horizontally aligned, one above the other. Context flows from neighboring and parent tiles into a new tile."></canvas></section>
+<div class="transport"><button id="play" type="button" aria-label="Pause animation">Pause</button><label class="scrub"><span class="sr-only">Animation position</span><input id="position" type="range" min="0" max="36" step="0.01" value="0"></label><output id="clock">00:00 / 00:36</output><button id="replay" type="button">Replay</button></div>
+<nav aria-label="Animation chapters"><button data-start="0" aria-pressed="true"><small>01 / HIERARCHY</small>Aligned zoom levels</button><button data-start="10" aria-pressed="false"><small>02 / CONTEXT</small>Generate the missing tile</button><button data-start="20" aria-pressed="false"><small>03 / CONTINUITY</small>One world across scales</button></nav>
+<footer><p id="caption" aria-live="polite">Four map levels share one horizontal alignment, stacked vertically from region to parcel detail.</p><p class="note">Original illustrative map art. The shared-geometry hierarchy explains the intended system; persistent generated streets remain in development.</p><div class="exports"><button id="record" type="button">Record aligned variation</button><span id="export-status" role="status">36 seconds · widescreen · all explanatory text left-aligned.</span></div></footer>
+</main><script type="module" src="animation-stacked.js"></script></html>

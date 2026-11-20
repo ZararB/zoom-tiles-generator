@@ -1,0 +1,1 @@
+{"version":1,"enabled":true,"features":[{"type":"Feature","id":"border-lake","properties":{"kind":"water","name":"Boundary Lake"},"geometry":{"type":"Polygon","coordinates":[[[-98.2,48.8],[-97.8,49.2],[-98.2,49.2],[-97.8,48.8],[-98.2,48.8]]]}}],"base_water_features":[],"provenance":{"method":"deterministic_geospatial_example","fictional":true},"scenario":"invalid-bowtie"}
